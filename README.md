@@ -1,2 +1,1880 @@
 # PRUEBA-AUDITORIA
-Isos
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Teórico ISO 19011:2026</title>
+    <style>
+        :root { --primary: #0d47a1; --secondary: #1976d2; --success: #2e7d32; --error: #c62828; --bg: #f4f7f6; --card: #fff; --text: #333; --border: #ddd; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { text-align: center; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: 10px; margin-bottom: 30px; }
+        h2 { color: var(--secondary); margin-top: 40px; border-bottom: 1px solid var(--secondary); padding-bottom: 5px; }
+        h3 { color: #555; margin-top: 25px; font-size: 1.1em; }
+        .exam-section { background-color: var(--card); border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 25px; margin-bottom: 30px; }
+        .question-block { margin-bottom: 20px; padding: 15px; border-left: 4px solid var(--secondary); background-color: #fafafa; border-radius: 0 4px 4px 0; }
+        .question-text { font-weight: 600; margin-bottom: 10px; }
+        .options label { display: block; margin-bottom: 8px; cursor: pointer; padding: 8px; border-radius: 4px; transition: background-color 0.2s; }
+        .options label:hover { background-color: #e3f2fd; }
+        .options input[type="radio"] { margin-right: 10px; }
+        .feedback { font-weight: bold; margin-left: 10px; font-size: 1.2em; }
+        .feedback.correct { color: var(--success); }
+        .feedback.incorrect { color: var(--error); }
+        .fill-in-blank { margin-top: 10px; }
+        .fill-in-blank input[type="text"] { padding: 8px; border: 1px solid var(--border); border-radius: 4px; width: 200px; font-size: 1em; margin-right: 10px; }
+        .fill-in-blank input[type="text"]:focus { outline: 2px solid var(--secondary); }
+        .correct-answer { font-size: 0.9em; color: var(--success); margin-top: 5px; font-style: italic; }
+        .footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📝 Examen Teórico ISO 19011:2026</h1>
+    <p style="text-align: center;">Responde las preguntas. La corrección es automática. ✅ = Correcto, ❌ = Incorrecto.</p>
+
+    <div class="exam-section">
+        <h2>Parte I: Selección Múltiple</h2>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">1. La Cuarta Edición de la norma ISO 19011 (2026) cancela y reemplaza a la versión 2018, e incorpora una expansión significativa basada en el documento ISO/IEC TS 17012 sobre:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p1" value="a"> a) Gestión de riesgos financieros.</label>
+                <label><input type="radio" name="e1p1" value="b"> b) Métodos de auditoría remota.</label>
+                <label><input type="radio" name="e1p1" value="c"> c) Evaluación del ciclo de vida.</label>
+                <label><input type="radio" name="e1p1" value="d"> d) Requisitos legales de cumplimiento.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">2. Una auditoría externa realizada por un organismo independiente para otorgar un certificado (por ejemplo, ISO 14001) se clasifica como:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p2" value="a"> a) Auditoría de primera parte.</label>
+                <label><input type="radio" name="e1p2" value="b"> b) Auditoría de segunda parte.</label>
+                <label><input type="radio" name="e1p2" value="c"> c) Auditoría de tercera parte.</label>
+                <label><input type="radio" name="e1p2" value="d"> d) Auditoría combinada.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">3. Según el vocabulario de la norma, los "resultados de la evaluación de la evidencia frente a los criterios" se denominan:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p3" value="a"> a) Conclusiones de auditoría.</label>
+                <label><input type="radio" name="e1p3" value="b"> b) Criterios de auditoría.</label>
+                <label><input type="radio" name="e1p3" value="c"> c) Hallazgos de auditoría.</label>
+                <label><input type="radio" name="e1p3" value="d"> d) Registros de desempeño.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">4. ¿Cuál de los siguientes roles corresponde a la persona que acompaña al equipo pero NO actúa ni influye en la auditoría?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p4" value="a"> a) Experto técnico.</label>
+                <label><input type="radio" name="e1p4" value="b"> b) Auditor en formación.</label>
+                <label><input type="radio" name="e1p4" value="c"> c) Observador.</label>
+                <label><input type="radio" name="e1p4" value="d"> d) Cliente de auditoría.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">5. El principio de auditoría que constituye el "fundamento del profesionalismo" y exige que los auditores actúen con ética y honestidad es:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p5" value="a"> a) Integridad.</label>
+                <label><input type="radio" name="e1p5" value="b"> b) Presentación imparcial.</label>
+                <label><input type="radio" name="e1p5" value="c"> c) Independencia.</label>
+                <label><input type="radio" name="e1p5" value="d"> d) Debido cuidado profesional.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">6. ¿Qué ciclo metodológico estructura tanto la gestión del Programa de Auditoría (Cláusula 5) como la Auditoría Individual (Cláusula 6)?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p6" value="a"> a) Análisis de Causa Raíz.</label>
+                <label><input type="radio" name="e1p6" value="b"> b) Ciclo PHVA (Planificar-Hacer-Verificar-Actuar).</label>
+                <label><input type="radio" name="e1p6" value="c"> c) Modelo de 5 Fuerzas.</label>
+                <label><input type="radio" name="e1p6" value="d"> d) Enfoque Six Sigma.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">7. ¿Cuándo debe el líder del equipo auditor determinar la factibilidad (viabilidad) de la auditoría?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p7" value="a"> a) Durante la reunión de cierre.</label>
+                <label><input type="radio" name="e1p7" value="b"> b) Antes de proceder, en la fase de iniciación (6.2).</label>
+                <label><input type="radio" name="e1p7" value="c"> c) Después de recopilar toda la evidencia.</label>
+                <label><input type="radio" name="e1p7" value="d"> d) Durante el seguimiento de acciones correctivas.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">8. Para un auditor ambiental, la revisión de información documentada (6.3.1) debería incluir prioritariamente:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p8" value="a"> a) Estados financieros y balances contables.</label>
+                <label><input type="radio" name="e1p8" value="b"> b) Registros de identificación de aspectos/impactos ambientales y matriz de cumplimiento legal.</label>
+                <label><input type="radio" name="e1p8" value="c"> c) Organigrama del departamento de marketing.</label>
+                <label><input type="radio" name="e1p8" value="d"> d) Recibos de nómina de los empleados.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">9. Al planificar la auditoría (6.3.2), el líder debe adoptar un enfoque basado en riesgos. Esto significa que:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p9" value="a"> a) Los procesos con mayor riesgo inherente o impacto ambiental merecen mayor atención auditoria.</label>
+                <label><input type="radio" name="e1p9" value="b"> b) Se deben auditar todos los procesos exactamente con la misma profundidad.</label>
+                <label><input type="radio" name="e1p9" value="c"> c) La auditoría debe cancelarse si existe algún riesgo operativo.</label>
+                <label><input type="radio" name="e1p9" value="d"> d) Solo se auditan las áreas que no presentan problemas para asegurar resultados limpios.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">10. Durante la Reunión de Apertura, es de carácter obligatorio confirmar:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p10" value="a"> a) El presupuesto asignado para el equipo auditor.</label>
+                <label><input type="radio" name="e1p10" value="b"> b) Los objetivos, alcance, criterios, canales de comunicación y logística de la auditoría.</label>
+                <label><input type="radio" name="e1p10" value="c"> c) Las sanciones legales que recibirá la empresa si falla.</label>
+                <label><input type="radio" name="e1p10" value="d"> d) El cierre de las no conformidades del año pasado.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">11. Si durante la auditoría la evidencia recopilada sugiere un riesgo inmediato y significativo (ej. un derrame inminente), el equipo auditor debe:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p11" value="a"> a) Documentarlo y esperar a la reunión de cierre.</label>
+                <label><input type="radio" name="e1p11" value="b"> b) Reportarlo sin demora al auditado y al cliente de auditoría.</label>
+                <label><input type="radio" name="e1p11" value="c"> c) Detener la auditoría e irse de las instalaciones.</label>
+                <label><input type="radio" name="e1p11" value="d"> d) Ignorarlo si no estaba en el plan de auditoría.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">12. En relación a la recopilación de información, el "Principio de Verificabilidad" establece que:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p12" value="a"> a) Solo la información que pueda verificarse debe aceptarse como evidencia de auditoría.</label>
+                <label><input type="radio" name="e1p12" value="b"> b) Los rumores de pasillo son evidencia válida si los dicen dos personas.</label>
+                <label><input type="radio" name="e1p12" value="c"> c) Toda declaración verbal debe ser grabada en audio obligatoriamente.</label>
+                <label><input type="radio" name="e1p12" value="d"> d) La evidencia solo es válida si está firmada por el gerente general.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">13. Antes de la reunión de cierre, ¿por qué es fundamental revisar las no conformidades con el auditado?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p13" value="a"> a) Para que el auditado tenga oportunidad de ocultar los errores.</label>
+                <label><input type="radio" name="e1p13" value="b"> b) Para negociar cuántas no conformidades quedarán en el informe.</label>
+                <label><input type="radio" name="e1p13" value="c"> c) Para obtener reconocimiento de que la evidencia es exacta y confirmar que las no conformidades son comprendidas.</label>
+                <label><input type="radio" name="e1p13" value="d"> d) Para cobrar honorarios adicionales por cada hallazgo.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">14. Si existen desacuerdos no resueltos entre el equipo auditor y el auditado en la reunión de cierre, estos deben:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p14" value="a"> a) Ignorarse para evitar conflictos en el reporte final.</label>
+                <label><input type="radio" name="e1p14" value="b"> b) Registrarse en el informe de auditoría junto con las posiciones de ambas partes.</label>
+                <label><input type="radio" name="e1p14" value="c"> c) Ser eliminados, primando siempre la opinión del auditado.</label>
+                <label><input type="radio" name="e1p14" value="d"> d) Tratarse en un tribunal civil de inmediato.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">15. ¿Qué declaración debe incluir obligatoriamente el informe de auditoria respecto a la naturaleza de la evaluación?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p15" value="a"> a) Que la empresa está libre de cualquier responsabilidad legal.</label>
+                <label><input type="radio" name="e1p15" value="b"> b) Que la auditoría es un ejercicio de muestreo y por tanto existe incertidumbre.</label>
+                <label><input type="radio" name="e1p15" value="c"> c) Que el auditor asume la responsabilidad por cualquier fallo futuro.</label>
+                <label><input type="radio" name="e1p15" value="d"> d) Que el sistema es perfecto e infalible.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">16. Según la ISO 19011:2026, la competencia del auditor es multidimensional y debe evaluarse considerando:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p16" value="a"> a) Únicamente los conocimientos teóricos del sistema.</label>
+                <label><input type="radio" name="e1p16" value="b"> b) Comportamiento personal, conocimientos, habilidades y experiencia práctica.</label>
+                <label><input type="radio" name="e1p16" value="c"> c) Solo los años de antigüedad en la empresa.</label>
+                <label><input type="radio" name="e1p16" value="d"> d) La capacidad para redactar informes rápidamente.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">17. El atributo de comportamiento personal que implica "observar activamente el entorno físico y las actividades" se denomina ser:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p17" value="a"> a) Decidido.</label>
+                <label><input type="radio" name="e1p17" value="b"> b) Observador.</label>
+                <label><input type="radio" name="e1p17" value="c"> c) Ético.</label>
+                <label><input type="radio" name="e1p17" value="d"> d) Diplomático.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">18. ¿Qué conocimientos de competencia específica son indispensables para un Auditor Ambiental en una ISO 14001?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p18" value="a"> a) Estrategias de marketing digital.</label>
+                <label><input type="radio" name="e1p18" value="b"> b) Evaluación de impacto ambiental, gestión de residuos y huella de carbono.</label>
+                <label><input type="radio" name="e1p18" value="c"> c) Contabilidad financiera avanzada.</label>
+                <label><input type="radio" name="e1p18" value="d"> d) Ergonomía y psicosociología del trabajo.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">19. ¿Cómo se debe adquirir formalmente la competencia de Líder de Equipo Auditor según la norma?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p19" value="a"> a) Solo mediante la aprobación de un examen teórico.</label>
+                <label><input type="radio" name="e1p19" value="b"> b) Por nombramiento directo de la gerencia.</label>
+                <label><input type="radio" name="e1p19" value="c"> c) Adquiriendo experiencia trabajando bajo la dirección y orientación de un líder de equipo diferente.</label>
+                <label><input type="radio" name="e1p19" value="d"> d) Teniendo más edad que el resto del equipo.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">20. Si un auditor no cumple con los criterios de evaluación establecidos en la norma, ¿qué acción debe tomarse?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p20" value="a"> a) Expulsarlo definitivamente del programa.</label>
+                <label><input type="radio" name="e1p20" value="b"> b) Realizar formación o experiencia adicional orientada a los déficits y reevaluarlo.</label>
+                <label><input type="radio" name="e1p20" value="c"> c) Bajar los criterios de evaluación para que apruebe.</label>
+                <label><input type="radio" name="e1p20" value="d"> d) Asignarlo únicamente como experto técnico.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">21. De los métodos de evaluación del auditor, ¿cuál de los siguientes evalúa las habilidades a través de un "Juego de roles"?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p21" value="a"> a) Revisión de registros.</label>
+                <label><input type="radio" name="e1p21" value="b"> b) Retroalimentación.</label>
+                <label><input type="radio" name="e1p21" value="c"> c) Observación.</label>
+                <label><input type="radio" name="e1p21" value="d"> d) Pruebas escritas.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">22. El Anexo A.2 establece que auditar un sistema de gestión implica principalmente auditar:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p22" value="a"> a) Cláusulas aisladas sin relación entre sí.</label>
+                <label><input type="radio" name="e1p22" value="b"> b) Únicamente los manuales impresos.</label>
+                <label><input type="radio" name="e1p22" value="c"> c) Los procesos de la organización y sus interacciones como un sistema integrado.</label>
+                <label><input type="radio" name="e1p22" value="d"> d) La infraestructura física del edificio.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">23. En situaciones donde las cláusulas de la norma no se prestan fácilmente a una comparación directa y literal, el Anexo A indica que el auditor debe:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p23" value="a"> a) Emitir una no conformidad automáticamente.</label>
+                <label><input type="radio" name="e1p23" value="b"> b) Aplicar su juicio profesional para determinar si se cumplió la intención de la cláusula.</label>
+                <label><input type="radio" name="e1p23" value="c"> c) Ignorar esa parte de la norma.</label>
+                <label><input type="radio" name="e1p23" value="d"> d) Preguntar al organismo de acreditación durante la auditoría.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">24. En cuanto al desempeño (Anexo A.4), la norma recalca que los auditores deben centrarse en:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p24" value="a"> a) La cantidad de documentos generados.</label>
+                <label><input type="radio" name="e1p24" value="b"> b) El formato estético de los procedimientos.</label>
+                <label><input type="radio" name="e1p24" value="c"> c) El resultado previsto del sistema de gestión y su desempeño medible.</label>
+                <label><input type="radio" name="e1p24" value="d"> d) Buscar errores menores de ortografía en los manuales.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">25. Según la matriz de métodos de auditoría (presencial/remota vs. interacción humana), ¿qué ejemplo representa un método remoto SIN interacción humana?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p25" value="a"> a) Entrevista por videoconferencia (Zoom/Teams).</label>
+                <label><input type="radio" name="e1p25" value="b"> b) Revisión de información documentada a través del acceso a una base de datos remota.</label>
+                <label><input type="radio" name="e1p25" value="c"> c) Observación presencial en la planta.</label>
+                <label><input type="radio" name="e1p25" value="d"> d) Completar un checklist junto al gerente en la oficina.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">26. Para un Ingeniero Ambiental realizando una auditoría de Segunda Parte, un caso típico sería:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p26" value="a"> a) Evaluar su propia planta de tratamiento de aguas.</label>
+                <label><input type="radio" name="e1p26" value="b"> b) Auditar a un proveedor de servicios de manejo de residuos peligrosos.</label>
+                <label><input type="radio" name="e1p26" value="c"> c) Emitir un certificado ISO oficial para la competencia.</label>
+                <label><input type="radio" name="e1p26" value="d"> d) Inspeccionar como funcionario del Ministerio del Ambiente.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">27. La diferencia clave entre una Auditoría Combinada y una Auditoría Conjunta es:</div>
+            <div class="options">
+                <label><input type="radio" name="e1p27" value="a"> a) Combinada = dos o más sistemas en un auditado; Conjunta = dos o más organizaciones auditoras juntas.</label>
+                <label><input type="radio" name="e1p27" value="b"> b) Combinada = dos auditores; Conjunta = un auditor y un experto.</label>
+                <label><input type="radio" name="e1p27" value="c"> c) Son términos sinónimos en la ISO 19011.</label>
+                <label><input type="radio" name="e1p27" value="d"> d) Combinada es presencial y Conjunta es remota.</label>
+            </div>
+        </div>
+
+        <!-- Pregunta 28 CORREGIDA -->
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">28. ¿Cuál es la diferencia clave entre una Auditoría Combinada y una Auditoría Conjunta?</div>
+            <div class="options">
+                <label><input type="radio" name="e1p28" value="a"> a) Combinada = dos o más sistemas en un auditado; Conjunta = dos o más organizaciones auditoras juntas.</label>
+                <label><input type="radio" name="e1p28" value="b"> b) Combinada = dos auditores; Conjunta = un auditor y un experto.</label>
+                <label><input type="radio" name="e1p28" value="c"> c) Son términos sinónimos en la ISO 19011.</label>
+                <label><input type="radio" name="e1p28" value="d"> d) Combinada es presencial y Conjunta es remota.</label>
+            </div>
+        </div>
+
+        <h3>Parte II: Completar los espacios en blanco</h3>
+
+        <div class="question-block" data-type="fill" data-correct="primera">
+            <div class="question-text">31. La auditoría interna, realizada por la propia organización para evaluar su desempeño interno, se denomina auditoría de parte _________.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: primera</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="evidencia">
+            <div class="question-text">32. Solo la información que puede verificarse objetivamente es aceptada como _________ de auditoría.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: evidencia</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="no conformidad">
+            <div class="question-text">33. El incumplimiento de un requisito establecido en los criterios de auditoría se define formalmente como una _________.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: no conformidad</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="independencia">
+            <div class="question-text">34. El principio de _________ es la base de la imparcialidad de la auditoría y la objetividad de sus conclusiones.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: independencia</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="phva">
+            <div class="question-text">35. El ciclo _________ (Planificar-Hacer-Verificar-Actuar) es la estructura organizadora fundamental del programa de auditoría.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: PHVA</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="cliente">
+            <div class="question-text">36. El _________ de auditoría es la organización o persona que solicita una auditoría.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: cliente</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="conclusión">
+            <div class="question-text">37. El resultado de una auditoría, después de considerar los objetivos y todos los hallazgos, se denomina _________ de auditoría.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: conclusión</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="remota">
+            <div class="question-text">38. La auditoría _________ se realiza desde cualquier lugar distinto a la ubicación del auditado.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: remota</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="resultado">
+            <div class="question-text">39. El _________ previsto del sistema de gestión es lo que los auditores deben centrarse en evaluar (Anexo A.4).</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: resultado</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="legislación">
+            <div class="question-text">40. Los requisitos legales y reglamentarios aplicables son parte de la _________ que el auditor debe conocer.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: legislación</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">Examen Teórico ISO 19011:2026 — Corrección automática</div>
+</div>
+
+<script>
+    // --- Lógica para preguntas de opción múltiple ---
+    document.querySelectorAll('.question-block[data-type="multiple"]').forEach(block => {
+        const radios = block.querySelectorAll('input[type="radio"]');
+        const feedback = document.createElement('span');
+        feedback.className = 'feedback';
+        block.querySelector('.options').appendChild(feedback);
+
+        radios.forEach(radio => {
+            radio.addEventListener('change', function() {
+                const correctAnswer = block.getAttribute('data-correct');
+                if (this.value === correctAnswer) {
+                    feedback.textContent = '✅';
+                    feedback.className = 'feedback correct';
+                } else {
+                    feedback.textContent = '❌';
+                    feedback.className = 'feedback incorrect';
+                }
+            });
+        });
+    });
+
+    // --- Lógica para preguntas de completar espacios ---
+    function checkFill(input) {
+        const block = input.closest('.question-block');
+        const feedback = block.querySelector('.feedback');
+        const correctAnswerSpan = block.querySelector('.correct-answer');
+        const correctAnswer = block.getAttribute('data-correct').toLowerCase().trim();
+        const userAnswer = input.value.toLowerCase().trim();
+
+        // Normalizar: quitar tildes y espacios extra
+        const normalize = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+
+        if (normalize(userAnswer) === normalize(correctAnswer)) {
+            feedback.textContent = '✅';
+            feedback.className = 'feedback correct';
+            correctAnswerSpan.style.display = 'none';
+        } else {
+            feedback.textContent = '❌';
+            feedback.className = 'feedback incorrect';
+            correctAnswerSpan.style.display = 'block';
+        }
+    }
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Integral ISO 19011:2026</title>
+    <style>
+        :root { --primary: #0d47a1; --secondary: #1976d2; --success: #2e7d32; --error: #c62828; --bg: #f4f7f6; --card: #fff; --text: #333; --border: #ddd; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { text-align: center; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: 10px; margin-bottom: 30px; }
+        h2 { color: var(--secondary); margin-top: 40px; border-bottom: 1px solid var(--secondary); padding-bottom: 5px; }
+        h3 { color: #555; margin-top: 25px; font-size: 1.1em; }
+        .exam-section { background-color: var(--card); border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 25px; margin-bottom: 30px; }
+        .question-block { margin-bottom: 20px; padding: 15px; border-left: 4px solid var(--secondary); background-color: #fafafa; border-radius: 0 4px 4px 0; }
+        .question-text { font-weight: 600; margin-bottom: 10px; }
+        .options label { display: block; margin-bottom: 8px; cursor: pointer; padding: 8px; border-radius: 4px; transition: background-color 0.2s; }
+        .options label:hover { background-color: #e3f2fd; }
+        .options input[type="radio"] { margin-right: 10px; }
+        .feedback { font-weight: bold; margin-left: 10px; font-size: 1.2em; }
+        .feedback.correct { color: var(--success); }
+        .feedback.incorrect { color: var(--error); }
+        .fill-in-blank { margin-top: 10px; }
+        .fill-in-blank input[type="text"] { padding: 8px; border: 1px solid var(--border); border-radius: 4px; width: 200px; font-size: 1em; margin-right: 10px; }
+        .fill-in-blank input[type="text"]:focus { outline: 2px solid var(--secondary); }
+        .correct-answer { font-size: 0.9em; color: var(--success); margin-top: 5px; font-style: italic; }
+        .footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📝 Examen Integral ISO 19011:2026</h1>
+    <p style="text-align: center;">Responde las preguntas. La corrección es automática. ✅ = Correcto, ❌ = Incorrecto.</p>
+
+    <div class="exam-section">
+        <h2>Parte I: Selección Múltiple</h2>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">1. ¿A qué edición específica anula y sustituye la nueva directriz ISO 19011:2026?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p1" value="a"> a) ISO 19011:2011</label>
+                <label><input type="radio" name="e2p1" value="b"> b) ISO 19011:2015</label>
+                <label><input type="radio" name="e2p1" value="c"> c) ISO 19011:2018</label>
+                <label><input type="radio" name="e2p1" value="d"> d) ISO 14001:2015</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">2. Según el vocabulario de la norma, una auditoría realizada por partes que tienen interés en la organización (como los clientes) se denomina:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p2" value="a"> a) Auditoría de primera parte.</label>
+                <label><input type="radio" name="e2p2" value="b"> b) Auditoría de segunda parte.</label>
+                <label><input type="radio" name="e2p2" value="c"> c) Auditoría de tercera parte.</label>
+                <label><input type="radio" name="e2p2" value="d"> d) Auditoría combinada.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">3. ¿Cómo se define el término "criterios de auditoría" en la norma ISO 19011:2026?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p3" value="a"> a) El resultado de evaluar la evidencia recopilada.</label>
+                <label><input type="radio" name="e2p3" value="b"> b) La extensión y límites de una auditoría.</label>
+                <label><input type="radio" name="e2p3" value="c"> c) Conjunto de requisitos utilizados como referencia contra la cual se compara la evidencia objetiva.</label>
+                <label><input type="radio" name="e2p3" value="d"> d) Registros, declaraciones de hechos u otra información verificable.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">4. El principio de auditoría que establece que "La presentación imparcial implica la obligación de informar con veracidad y exactitud" corresponde a:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p4" value="a"> a) Integridad.</label>
+                <label><input type="radio" name="e2p4" value="b"> b) Presentación justa.</label>
+                <label><input type="radio" name="e2p4" value="c"> c) Confidencialidad.</label>
+                <label><input type="radio" name="e2p4" value="d"> d) Enfoque basado en la evidencia.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">5. Según la directriz de Independencia, cuando no sea posible que los auditores internos sean independientes de la actividad auditada, se debe:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p5" value="a"> a) Cancelar la auditoría inmediatamente.</label>
+                <label><input type="radio" name="e2p5" value="b"> b) Contratar a un auditor de tercera parte.</label>
+                <label><input type="radio" name="e2p5" value="c"> c) Hacer todos los esfuerzos posibles para eliminar los sesgos y fomentar la objetividad.</label>
+                <label><input type="radio" name="e2p5" value="d"> d) Omitir el informe formal de los hallazgos.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">6. Al establecer un programa de auditoría, ¿a qué asuntos se les debe dar prioridad al asignar recursos y métodos?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p6" value="a"> a) A los procesos de recursos humanos.</label>
+                <label><input type="radio" name="e2p6" value="b"> b) A los asuntos que presenten un mayor riesgo inherente y menores niveles de desempeño.</label>
+                <label><input type="radio" name="e2p6" value="c"> c) A los procesos que tienen menos documentación.</label>
+                <label><input type="radio" name="e2p6" value="d"> d) A las áreas geográficamente más cercanas a la sede central.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">7. ¿Quién tiene la responsabilidad de solicitar la aprobación del programa de auditoría al cliente de auditoría?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p7" value="a"> a) El líder del equipo auditor.</label>
+                <label><input type="radio" name="e2p7" value="b"> b) El experto técnico.</label>
+                <label><input type="radio" name="e2p7" value="c"> c) La(s) persona(s) que gestiona(n) el programa de auditoría.</label>
+                <label><input type="radio" name="e2p7" value="d"> d) El guía designado por el auditado.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">8. ¿Cuál es el propósito principal de realizar la revisión de la información documentada antes de planificar la auditoría (sección 6.3.1)?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p8" value="a"> a) Redactar directamente el informe final de auditoría.</label>
+                <label><input type="radio" name="e2p8" value="b"> b) Recopilar información para comprender las operaciones del auditado, los riesgos inherentes y preparar las actividades.</label>
+                <label><input type="radio" name="e2p8" value="c"> c) Sancionar al auditado por falta de documentos.</label>
+                <label><input type="radio" name="e2p8" value="d"> d) Reemplazar totalmente las entrevistas presenciales.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">9. Al preparar los documentos de trabajo (ej. listas de verificación), la norma establece que el uso de estos medios:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p9" value="a"> a) Debe restringir obligatoriamente el alcance a lo estrictamente documentado.</label>
+                <label><input type="radio" name="e2p9" value="b"> b) No debe restringir el alcance de las actividades, que pueden variar según la información recopilada.</label>
+                <label><input type="radio" name="e2p9" value="c"> c) Es opcional solo para auditorías de tercera parte.</label>
+                <label><input type="radio" name="e2p9" value="d"> d) Debe ser aprobado por el gobierno local.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">10. ¿Cuál de las siguientes es una responsabilidad propia de los "guías" asignados por el auditado?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p10" value="a"> a) Tomar decisiones finales sobre los hallazgos de auditoría.</label>
+                <label><input type="radio" name="e2p10" value="b"> b) Redactar los registros de no conformidad.</label>
+                <label><input type="radio" name="e2p10" value="c"> c) Ayudar a identificar personas para entrevistas, organizar accesos y asegurar que se respeten normas de seguridad.</label>
+                <label><input type="radio" name="e2p10" value="d"> d) Actuar como auditores cuando el equipo principal está ocupado.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">11. Durante la realización de la reunión de apertura, ¿quién debe presidirla formalmente?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p11" value="a"> a) El gerente general de la organización auditada.</label>
+                <label><input type="radio" name="e2p11" value="b"> b) El jefe del equipo de auditoría.</label>
+                <label><input type="radio" name="e2p11" value="c"> c) El experto técnico especialista.</label>
+                <label><input type="radio" name="e2p11" value="d"> d) El representante del organismo de acreditación.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">12. Si durante la auditoría la evidencia sugiere un "riesgo inmediato y significativo", el auditor debe:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p12" value="a"> a) Ignorarlo si no está dentro del alcance específico de la auditoría.</label>
+                <label><input type="radio" name="e2p12" value="b"> b) Esperar a la reunión de cierre para causar mayor impacto.</label>
+                <label><input type="radio" name="e2p12" value="c"> c) Comunicarlo sin demora a la entidad auditada y, según corresponda, al cliente de auditoría.</label>
+                <label><input type="radio" name="e2p12" value="d"> d) Documentarlo secretamente en sus notas de trabajo.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">13. En cuanto a la recopilación y verificación de la información, la ISO 19011:2026 indica que solo debe aceptarse como evidencia de auditoría:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p13" value="a"> a) La información proporcionada verbalmente por la alta dirección sin respaldos.</label>
+                <label><input type="radio" name="e2p13" value="b"> b) La información que pueda verificarse en cierta medida.</label>
+                <label><input type="radio" name="e2p13" value="c"> c) Exclusivamente documentos firmados y sellados ante notario.</label>
+                <label><input type="radio" name="e2p13" value="d"> d) La información que favorezca a la empresa auditada.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">14. Al generar los resultados de la auditoría, si se encuentran no conformidades, estas deben:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p14" value="a"> a) Ocultarse en un anexo confidencial.</label>
+                <label><input type="radio" name="e2p14" value="b"> b) Registrase y revisarse con la entidad auditada para obtener una confirmación de que la evidencia es precisa.</label>
+                <label><input type="radio" name="e2p14" value="c"> c) Ser enviadas directamente a la policía u órgano fiscalizador estatal.</label>
+                <label><input type="radio" name="e2p14" value="d"> d) Ser corregidas por el propio auditor inmediatamente.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">15. La reunión de clausura (o cierre) tiene como finalidad principal:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p15" value="a"> a) Negociar el costo de la auditoría.</label>
+                <label><input type="radio" name="e2p15" value="b"> b) Presentar los resultados y las conclusiones de la auditoría de manera que sean comprendidos por la dirección.</label>
+                <label><input type="radio" name="e2p15" value="c"> c) Redactar la política de calidad y medio ambiente de la empresa.</label>
+                <label><input type="radio" name="e2p15" value="d"> d) Contratar a los auditores como consultores de planta.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">16. ¿Cuándo se considera oficialmente "finalizada" una auditoria?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p16" value="a"> a) En el momento en que se envía la factura por los servicios prestados.</label>
+                <label><input type="radio" name="e2p16" value="b"> b) Cuando se han llevado a cabo todas las actividades de auditoría planificadas, o según lo acordado con el cliente.</label>
+                <label><input type="radio" name="e2p16" value="c"> c) Cuando el auditado cierra todas las no conformidades levantadas.</label>
+                <label><input type="radio" name="e2p16" value="d"> d) Al cumplirse exactamente 30 días desde la reunión de apertura.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">17. Al determinar la competencia del auditor (sección 7.2.2), ¿qué comportamiento profesional define a un auditor como "versátil"?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p17" value="a"> a) Persistente y centrado en lograr los objetivos.</label>
+                <label><input type="radio" name="e2p17" value="b"> b) Dispuesto a aprender de las situaciones.</label>
+                <label><input type="radio" name="e2p17" value="c"> c) Capaz de adaptarse fácilmente a diferentes situaciones.</label>
+                <label><input type="radio" name="e2p17" value="d"> d) Discreto al tratar con las personas.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">18. El líder del equipo de auditoría debe poseer conocimientos y habilidades adicionales (genéricos) que le permitan, entre otras cosas:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p18" value="a"> a) Reparar equipos de cómputo y redes del auditado.</label>
+                <label><input type="radio" name="e2p18" value="b"> b) Desarrollar y mantener una relación de trabajo colaborativa entre los miembros del equipo y representarlos en comunicaciones.</label>
+                <label><input type="radio" name="e2p18" value="c"> c) Modificar arbitrariamente los criterios de la norma internacional.</label>
+                <label><input type="radio" name="e2p18" value="d"> d) Traducir simultáneamente hasta en tres idiomas distintos.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">19. En el proceso de evaluación de auditores (Tabla 2), ¿cuál es el objetivo del método de "Revisión de registros"?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p19" value="a"> a) Proveer información sobre cómo se percibe el desempeño a través de encuestas.</label>
+                <label><input type="radio" name="e2p19" value="b"> b) Evaluar la capacidad de aplicar conocimientos en un juego de roles.</label>
+                <label><input type="radio" name="e2p19" value="c"> c) Verificar los antecedentes del auditor (educación, formación, empleo, experiencia).</label>
+                <label><input type="radio" name="e2p19" value="d"> d) Poner a prueba los conocimientos mediante exámenes orales o escritos.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">20. La norma introdujo la guía contenida en la ISO/IEC TS 17012 con el objetivo principal de proporcionar orientación sobre:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p20" value="a"> a) Criterios de acreditación de laboratorios.</label>
+                <label><input type="radio" name="e2p20" value="b"> b) Gestión de riesgos financieros organizacionales.</label>
+                <label><input type="radio" name="e2p20" value="c"> c) Uso de métodos de auditoría remota en la auditoría de sistemas de gestión.</label>
+                <label><input type="radio" name="e2p20" value="d"> d) Evaluación estricta del ciclo de vida del producto.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">21. Según la definición de la norma (3.4), ¿qué es un "método de auditoría remota"?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p21" value="a"> a) Un método donde la auditoría se hace exclusivamente analizando documentos impresos enviados por correo.</label>
+                <label><input type="radio" name="e2p21" value="b"> b) Un método utilizado para realizar actividades de auditoría desde cualquier lugar distinto a la ubicación del auditado.</label>
+                <label><input type="radio" name="e2p21" value="c"> c) Un método que prohíbe las entrevistas en vivo y se basa solo en cuestionarios.</label>
+                <label><input type="radio" name="e2p21" value="d"> d) Una auditoría donde no existe interacción humana en absoluto.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">22. De acuerdo al Anexo A.6 (Muestreo), ¿cuáles son los dos tipos principales de muestreo en auditoría?</div>
+            <div class="options">
+                <label><input type="radio" name="e2p22" value="a"> a) Muestreo predictivo y muestreo aleatorio.</label>
+                <label><input type="radio" name="e2p22" value="b"> b) Muestreo cualitativo y muestreo de conformidad.</label>
+                <label><input type="radio" name="e2p22" value="c"> c) Muestreo basado en juicios y muestreo estadístico.</label>
+                <label><input type="radio" name="e2p22" value="d"> d) Muestreo por atributos y muestreo documental estricto.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">23. Al evaluar el "Liderazgo y compromiso" (Anexo A.9), los auditores deben obtener evidencia objetiva del grado de participación de la alta dirección, lo cual se puede lograr:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p23" value="a"> a) Exigiendo que la alta dirección redacte personalmente todos los procedimientos.</label>
+                <label><input type="radio" name="e2p23" value="b"> b) Revisando resultados (políticas, objetivos, revisiones de gestión) y entrevistando al personal y a la propia alta dirección.</label>
+                <label><input type="radio" name="e2p23" value="c"> c) Solicitando una declaración jurada de compromiso.</label>
+                <label><input type="radio" name="e2p23" value="d"> d) Verificando que el gerente general esté presente en todas las entrevistas.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">24. Respecto al uso de tecnologías de la información (TICs) y la auditoría de "ubicaciones virtuales", la norma señala que las ubicaciones virtuales son:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p24" value="a"> a) Puntos geográficos inaccesibles por motivos de bioseguridad.</label>
+                <label><input type="radio" name="e2p24" value="b"> b) Entornos en línea donde una organización realiza un trabajo o presta un servicio independientemente de la ubicación física.</label>
+                <label><input type="radio" name="e2p24" value="c"> c) Oficinas satélites cerradas al público.</label>
+                <label><input type="radio" name="e2p24" value="d"> d) Ambientes de simulación exclusivamente para la formación del personal.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">25. Según el Anexo A.17 (Realización de entrevistas), una directriz fundamental para el auditor es:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p25" value="a"> a) Hacer preguntas extremadamente largas y complejas para evaluar la capacidad técnica del entrevistado.</label>
+                <label><input type="radio" name="e2p25" value="b"> b) Evitar explicar el motivo de la entrevista para no generar nerviosismo.</label>
+                <label><input type="radio" name="e2p25" value="c"> c) Realizarlas durante el horario laboral definido y, cuando sea posible, en el lugar de trabajo habitual, resumiendo resultados al final.</label>
+                <label><input type="radio" name="e2p25" value="d"> d) Realizar las entrevistas fuera de las instalaciones sin el consentimiento de la dirección.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">26. Al determinar los hallazgos de auditoria relacionados con múltiples criterios (Anexo A.18.4) en una auditoría combinada, el auditor:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p26" value="a"> a) Debe anular el hallazgo por generar confusión normativa.</label>
+                <label><input type="radio" name="e2p26" value="b"> b) Debe obligatoriamente separar los hallazgos uno por cada norma, sin excepciones.</label>
+                <label><input type="radio" name="e2p26" value="c"> c) Puede plantear hallazgos separados o un único hallazgo que combine referencias a múltiples criterios, según se acuerde.</label>
+                <label><input type="radio" name="e2p26" value="d"> d) Debe sancionar a la organización por duplicar documentos en su sistema.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">27. Cuando se realiza una auditoría conjunta (dos o más organizaciones auditoras), es importante que las organizaciones:</div>
+            <div class="options">
+                <label><input type="radio" name="e2p27" value="a"> a) Actúen independientemente sin comunicarse entre sí.</label>
+                <label><input type="radio" name="e2p27" value="b"> b) Lleguen a un acuerdo antes de iniciar sobre las responsabilidades específicas de cada parte y la autoridad del jefe de equipo.</label>
+                <label><input type="radio" name="e2p27" value="c"> c) Presenten siempre informes de auditoría separados y contradictorios si fuera necesario.</label>
+                <label><input type="radio" name="e2p27" value="d"> d) Cobren tarifas idénticas por el servicio.</label>
+            </div>
+        </div>
+
+        <h3>Parte II: Completar los espacios en blanco</h3>
+
+        <div class="question-block" data-type="fill" data-correct="gestión">
+            <div class="question-text">31. La ISO 19011 proporciona orientación sobre la auditoría de sistemas de _________.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: gestión</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="riesgo">
+            <div class="question-text">32. El enfoque basado en el _________ es un método de auditoría que considera y evalúa las incertidumbres y oportunidades en el programa de auditoría.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: riesgo</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="disconformidad">
+            <div class="question-text">33. El incumplimiento de un requisito normativo o interno se define formalmente como una _________.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: disconformidad (o no conformidad)</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="combinada">
+            <div class="question-text">34. Una auditoría _________ se lleva a cabo de manera conjunta en un solo auditado abarcando dos o más sistemas de gestión.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: combinada</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="evidencia">
+            <div class="question-text">35. La información verificable (registros o declaraciones) generada y comparada contra los criterios se denomina _________ de auditoría.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: evidencia</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="técnico">
+            <div class="question-text">36. Un experto _________ acompaña al equipo aportando conocimientos específicos, pero no actúa propiamente como auditor.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: técnico</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="estadístico">
+            <div class="question-text">37. El muestreo _________ se basa en la teoría de la probabilidad para seleccionar muestras.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: estadístico</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="competencia">
+            <div class="question-text">38. La _________ es la capacidad para aplicar conocimientos y habilidades para lograr los resultados previstos.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: competencia</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="17012">
+            <div class="question-text">39. La norma ISO/IEC TS _________ proporciona orientación sobre métodos de auditoría remota.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: 17012</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="clausura">
+            <div class="question-text">40. La reunión de _________ (o cierre) tiene como propósito principal presentar de manera formal los resultados y las conclusiones de la auditoría a la alta dirección.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: clausura (o cierre)</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">Examen Integral ISO 19011:2026 — Corrección automática</div>
+</div>
+
+<script>
+    document.querySelectorAll('.question-block[data-type="multiple"]').forEach(block => {
+        const radios = block.querySelectorAll('input[type="radio"]');
+        const feedback = document.createElement('span');
+        feedback.className = 'feedback';
+        block.querySelector('.options').appendChild(feedback);
+
+        radios.forEach(radio => {
+            radio.addEventListener('change', function() {
+                const correctAnswer = block.getAttribute('data-correct');
+                if (this.value === correctAnswer) {
+                    feedback.textContent = '✅';
+                    feedback.className = 'feedback correct';
+                } else {
+                    feedback.textContent = '❌';
+                    feedback.className = 'feedback incorrect';
+                }
+            });
+        });
+    });
+
+    function checkFill(input) {
+        const block = input.closest('.question-block');
+        const feedback = block.querySelector('.feedback');
+        const correctAnswerSpan = block.querySelector('.correct-answer');
+        const correctAnswer = block.getAttribute('data-correct').toLowerCase().trim();
+        const userAnswer = input.value.toLowerCase().trim();
+        const normalize = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+
+        if (normalize(userAnswer) === normalize(correctAnswer)) {
+            feedback.textContent = '✅';
+            feedback.className = 'feedback correct';
+            correctAnswerSpan.style.display = 'none';
+        } else {
+            feedback.textContent = '❌';
+            feedback.className = 'feedback incorrect';
+            correctAnswerSpan.style.display = 'block';
+        }
+    }
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Integral ISO 14001:2026</title>
+    <style>
+        :root { --primary: #0d47a1; --secondary: #1976d2; --success: #2e7d32; --error: #c62828; --bg: #f4f7f6; --card: #fff; --text: #333; --border: #ddd; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { text-align: center; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: 10px; margin-bottom: 30px; }
+        h2 { color: var(--secondary); margin-top: 40px; border-bottom: 1px solid var(--secondary); padding-bottom: 5px; }
+        h3 { color: #555; margin-top: 25px; font-size: 1.1em; }
+        .exam-section { background-color: var(--card); border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 25px; margin-bottom: 30px; }
+        .question-block { margin-bottom: 20px; padding: 15px; border-left: 4px solid var(--secondary); background-color: #fafafa; border-radius: 0 4px 4px 0; }
+        .question-text { font-weight: 600; margin-bottom: 10px; }
+        .options label { display: block; margin-bottom: 8px; cursor: pointer; padding: 8px; border-radius: 4px; transition: background-color 0.2s; }
+        .options label:hover { background-color: #e3f2fd; }
+        .options input[type="radio"] { margin-right: 10px; }
+        .feedback { font-weight: bold; margin-left: 10px; font-size: 1.2em; }
+        .feedback.correct { color: var(--success); }
+        .feedback.incorrect { color: var(--error); }
+        .fill-in-blank { margin-top: 10px; }
+        .fill-in-blank input[type="text"] { padding: 8px; border: 1px solid var(--border); border-radius: 4px; width: 200px; font-size: 1em; margin-right: 10px; }
+        .fill-in-blank input[type="text"]:focus { outline: 2px solid var(--secondary); }
+        .correct-answer { font-size: 0.9em; color: var(--success); margin-top: 5px; font-style: italic; }
+        .footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📝 Examen Integral ISO 14001:2026</h1>
+    <p style="text-align: center;">Responde las preguntas. La corrección es automática. ✅ = Correcto, ❌ = Incorrecto.</p>
+
+    <div class="exam-section">
+        <h2>Parte I: Selección Múltiple</h2>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">1. ¿Cuáles son los tres pilares fundamentales que integran el equilibrio esencial de la Sostenibilidad?</div>
+            <div class="options">
+                <label><input type="radio" name="e3p1" value="a"> a) Calidad, Seguridad y Medio Ambiente.</label>
+                <label><input type="radio" name="e3p1" value="b"> b) Medio ambiente, sociedad y economía.</label>
+                <label><input type="radio" name="e3p1" value="c"> c) Cumplimiento legal, auditoría y mejora.</label>
+                <label><input type="radio" name="e3p1" value="d"> d) Contexto, Liderazgo y Planificación.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">2. Según la definición de la norma, el "Cambio en el medio ambiente resultado de los aspectos ambientales" se conoce como:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p2" value="a"> a) Riesgo Ambiental.</label>
+                <label><input type="radio" name="e3p2" value="b"> b) Aspecto Ambiental.</label>
+                <label><input type="radio" name="e3p2" value="c"> c) Impacto Ambiental.</label>
+                <label><input type="radio" name="e3p2" value="d"> d) Ciclo de Vida.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">3. El término que sustituye a "requisitos legales y otros requisitos" en la norma ISO 14001:2026 para alinear el lenguaje normativo global es:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p3" value="a"> a) Evaluación de la Conformidad.</label>
+                <label><input type="radio" name="e3p3" value="b"> b) Obligaciones de Compliance.</label>
+                <label><input type="radio" name="e3p3" value="c"> c) Legislación aplicable.</label>
+                <label><input type="radio" name="e3p3" value="d"> d) Acuerdos de partes interesadas.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">4. En el modelo PHVA (Mejora Continua), la etapa de "Planificar" implica fundamentalmente:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p4" value="a"> a) Medir el desempeño y optimizar el sistema.</label>
+                <label><input type="radio" name="e3p4" value="b"> b) Implementar los procesos documentados.</label>
+                <label><input type="radio" name="e3p4" value="c"> c) Establecer objetivos según la política ambiental.</label>
+                <label><input type="radio" name="e3p4" value="d"> d) Realizar la revisión por la dirección.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">5. ¿Qué Anexo de la estructura armonizada (Estructura de Alto Nivel) se adopta para facilitar la integración con la ISO 9001:2015?</div>
+            <div class="options">
+                <label><input type="radio" name="e3p5" value="a"> a) Anexo SL.</label>
+                <label><input type="radio" name="e3p5" value="b"> b) Anexo A.</label>
+                <label><input type="radio" name="e3p5" value="c"> c) Anexo normativo 14004.</label>
+                <label><input type="radio" name="e3p5" value="d"> d) Anexo de Ciclo de Vida.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">6. Respecto a la responsabilidad sobre el SGA, ¿qué rol asume la rendición de cuentas final por la eficacia del sistema?</div>
+            <div class="options">
+                <label><input type="radio" name="e3p6" value="a"> a) El auditor interno.</label>
+                <label><input type="radio" name="e3p6" value="b"> b) La Alta Dirección.</label>
+                <label><input type="radio" name="e3p6" value="c"> c) El responsable de recursos humanos.</label>
+                <label><input type="radio" name="e3p6" value="d"> d) El representante de cumplimiento.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">7. Al identificar Aspectos Ambientales Significativos, la evaluación integral debe considerar actividades bajo condiciones:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p7" value="a"> a) Normales únicamente.</label>
+                <label><input type="radio" name="e3p7" value="b"> b) Anormales únicamente.</label>
+                <label><input type="radio" name="e3p7" value="c"> c) Normales, anormales y de emergencia potencial.</label>
+                <label><input type="radio" name="e3p7" value="d"> d) Solo las condiciones planificadas.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="d">
+            <div class="question-text">8. En cuanto a la evolución terminológica de la información documentada, la palabra "Conservar" fue reemplazada por:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p8" value="a"> a) Mantener.</label>
+                <label><input type="radio" name="e3p8" value="b"> b) Archivar físicamente.</label>
+                <label><input type="radio" name="e3p8" value="c"> c) Evidencia de.</label>
+                <label><input type="radio" name="e3p8" value="d"> d) Publicar externamente.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">9. Al hablar de los resultados del SGA (Gestión de Resultados), la diferencia fundamental entre "Outcome" y "Result" es que:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p9" value="a"> a) Result se refiere a las consecuencias planificadas, Outcome a los logros ya alcanzados.</label>
+                <label><input type="radio" name="e3p9" value="b"> b) Outcome se refiere a las consecuencias planificadas y estratégicas; Result a los logros medibles ya alcanzados.</label>
+                <label><input type="radio" name="e3p9" value="c"> c) No existe diferencia, son sinónimos.</label>
+                <label><input type="radio" name="e3p9" value="d"> d) Outcome se utiliza solo para riesgos. Result para oportunidades.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">10. Según la guía, la "mejora continua" se define así frente a "continuada" porque:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p10" value="a"> a) Es ininterrumpida las 24 horas del día.</label>
+                <label><input type="radio" name="e3p10" value="b"> b) Exige cambios diarios.</label>
+                <label><input type="radio" name="e3p10" value="c"> c) Admite intervalos de interrupción a lo largo del tiempo.</label>
+                <label><input type="radio" name="e3p10" value="d"> d) Solo se aplica al cumplimiento legal.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">11. Para la determinación de los límites físicos y organizacionales del SGA, se debe definir el:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p11" value="a"> a) Ciclo de vida del producto.</label>
+                <label><input type="radio" name="e3p11" value="b"> b) Impacto residual.</label>
+                <label><input type="radio" name="e3p11" value="c"> c) Alcance del SGA.</label>
+                <label><input type="radio" name="e3p11" value="d"> d) Presupuesto de implementación.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">12. ¿Qué es obligatorio respecto a la Política Ambiental en términos de comunicación (Cap. 7)?</div>
+            <div class="options">
+                <label><input type="radio" name="e3p12" value="a"> a) Solo debe publicarse en el sitio web para el público externo.</label>
+                <label><input type="radio" name="e3p12" value="b"> b) Debe ser comunicada internamente y a las partes interesadas.</label>
+                <label><input type="radio" name="e3p12" value="c"> c) Debe ser memorizada textualmente por todos los empleados.</label>
+                <label><input type="radio" name="e3p12" value="d"> d) Es un documento confidencial exclusivo de la alta dirección.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">13. Al aplicar el "Control Operacional" (Cap. 8), la organización debe aplicar una jerarquía de controles para mitigar impactos. Esto implica priorizar:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p13" value="a"> a) Exclusivamente el uso de Equipos de Protección Personal (EPP).</label>
+                <label><input type="radio" name="e3p13" value="b"> b) La eliminación, sustitución y controles administrativos.</label>
+                <label><input type="radio" name="e3p13" value="c"> c) El pago de multas ambientales compensatorias.</label>
+                <label><input type="radio" name="e3p13" value="d"> d) La contratación de seguros ambientales.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">14. La perspectiva de "Ciclo de Vida" exige que se incorporen requisitos ambientales en etapas como:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p14" value="a"> a) Solamente en el proceso de fabricación interna.</label>
+                <label><input type="radio" name="e3p14" value="b"> b) Exclusivamente en la disposición final de los residuos.</label>
+                <label><input type="radio" name="e3p14" value="c"> c) Diseño, desarrollo, compra, transporte, uso y fin de vida útil.</label>
+                <label><input type="radio" name="e3p14" value="d"> d) Únicamente en el marketing del producto.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">15. Frente a emergencias ambientales (Protocolo 8.2), la organización debe principalmente:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p15" value="a"> a) Ocultar los incidentes para proteger la reputación.</label>
+                <label><input type="radio" name="e3p15" value="b"> b) Desarrollar procesos robustos para prevenir, mitigar y responder ante situaciones potenciales, además de probarlos periódicamente.</label>
+                <label><input type="radio" name="e3p15" value="c"> c) Esperar a que ocurra el incidente para redactar el protocolo de respuesta.</label>
+                <label><input type="radio" name="e3p15" value="d"> d) Delegar toda la responsabilidad a los bomberos locales.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">16. Según la directriz de Evaluación del Cumplimiento (9.1.2), la organización debe:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p16" value="a"> a) Verificar las obligaciones legales y determinar la frecuencia de evaluación, tomando acciones inmediatas si hay desviaciones.</label>
+                <label><input type="radio" name="e3p16" value="b"> b) Evaluar el cumplimiento solo durante las auditorías externas de certificación.</label>
+                <label><input type="radio" name="e3p16" value="c"> c) Esperar notificaciones del gobierno para verificar el cumplimiento.</label>
+                <label><input type="radio" name="e3p16" value="d"> d) Medir la satisfacción del cliente respecto al producto final.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">17. Al realizar la "Revisión por la Dirección", uno de los elementos críticos a analizar es:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p17" value="a"> a) Los horarios de refrigerio del personal de producción.</label>
+                <label><input type="radio" name="e3p17" value="b"> b) Cambios en cuestiones externas/internas, riesgos, oportunidades y tendencias en no conformidades.</label>
+                <label><input type="radio" name="e3p17" value="c"> c) Exclusivamente los reportes financieros del último trimestre.</label>
+                <label><input type="radio" name="e3p17" value="d"> d) El desempeño de las campañas de publicidad en redes sociales.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">18. ¿A qué se refiere la norma con la necesidad de gestionar el "Control de Origen Externo" de la información documentada?</div>
+            <div class="options">
+                <label><input type="radio" name="e3p18" value="a"> a) Controlar bases de datos, manuales de fabricantes y licencias esenciales para planificar y operar el SGA.</label>
+                <label><input type="radio" name="e3p18" value="b"> b) Controlar las publicaciones de la competencia en el mercado.</label>
+                <label><input type="radio" name="e3p18" value="c"> c) Limitar el uso de internet a los empleados.</label>
+                <label><input type="radio" name="e3p18" value="d"> d) Evitar el contacto con proveedores externos.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">19. En la estrategia de mitigación, un aspecto fundamental para prevenir riesgos derivados de la diversidad del personal es abordar:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p19" value="a"> a) Exclusivamente el salario de los operarios.</label>
+                <label><input type="radio" name="e3p19" value="b"> b) Las barreras sociales y lingüísticas que pueden causar derrames o falta de comprensión.</label>
+                <label><input type="radio" name="e3p19" value="c"> c) La vestimenta formal en la oficina.</label>
+                <label><input type="radio" name="e3p19" value="d"> d) El número de horas extras trabajadas.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">20. Al evaluar el contexto de la organización, los activos de capital natural y ecosistemas son importantes porque:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p20" value="a"> a) Solo se usan para publicidad ecológica.</label>
+                <label><input type="radio" name="e3p20" value="b"> b) Regulan procesos esenciales y su degradación aumenta riesgos operativos y financieros.</label>
+                <label><input type="radio" name="e3p20" value="c"> c) Tienen un valor de reventa en el mercado inmobiliario.</label>
+                <label><input type="radio" name="e3p20" value="d"> d) No son relevantes para empresas industriales.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">21. Un cambio no planificado (como un desastre natural o un fallo de innovación) requiere que la organización:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p21" value="a"> a) Abandone temporalmente el SGA hasta que se estabilice la situación.</label>
+                <label><input type="radio" name="e3p21" value="b"> b) Evalue proactivamente las consecuencias imprevistas para mitigar impactos negativos.</label>
+                <label><input type="radio" name="e3p21" value="c"> c) Elimine las no conformidades del registro para evitar auditorías.</label>
+                <label><input type="radio" name="e3p21" value="d"> d) Cambie inmediatamente de rubro de negocio.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">22. En los procesos de comunicación (interna y externa), se debe hacer una clara diferenciación entre:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p22" value="a"> a) Empleados nuevos y antiguos.</label>
+                <label><input type="radio" name="e3p22" value="b"> b) Requisitos obligatorios (legales) y comunicaciones voluntarias (ej. sostenibilidad).</label>
+                <label><input type="radio" name="e3p22" value="c"> c) Proveedores nacionales y extranjeros.</label>
+                <label><input type="radio" name="e3p22" value="d"> d) Medios digitales y medios impresos.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">23. El Anexo A de la norma ISO 14001 tiene la función principal de:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p23" value="a"> a) Añadir nuevos requisitos obligatorios que no están en el cuerpo central.</label>
+                <label><input type="radio" name="e3p23" value="b"> b) Orientar el uso de la norma y prevenir interpretaciones erróneas sin modificar los requisitos fundamentales.</label>
+                <label><input type="radio" name="e3p23" value="c"> c) Proveer una lista de verificación de cumplimiento legal aplicable a todos los países.</label>
+                <label><input type="radio" name="e3p23" value="d"> d) Definir las sanciones económicas por incumplimiento.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">24. La definición de "Personal Directo" o personas bajo control de la entidad incluye:</div>
+            <div class="options">
+                <label><input type="radio" name="e3p24" value="a"> a) Únicamente a los gerentes y directivos.</label>
+                <label><input type="radio" name="e3p24" value="b"> b) A los competidores en el mismo sector industrial.</label>
+                <label><input type="radio" name="e3p24" value="c"> c) A los empleados contratados directamente, mientras que contratistas son individuos que actúan en nombre de la empresa.</label>
+                <label><input type="radio" name="e3p24" value="d"> d) A las autoridades reguladoras del Estado.</label>
+            </div>
+        </div>
+
+        <h3>Parte II: Completar los espacios en blanco</h3>
+
+        <div class="question-block" data-type="fill" data-correct="económico">
+            <div class="question-text">31. Los tres pilares esenciales de la Sostenibilidad son el pilar ambiental, el social y el pilar _________.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: económico</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="aspecto">
+            <div class="question-text">32. Un _________ Ambiental es un elemento de las actividades, productos o servicios de una organización que interactúa con el medio ambiente.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: aspecto</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="impacto">
+            <div class="question-text">33. Todo cambio adverso o beneficioso en el medio ambiente que resulte total o parcialmente de las actividades de la empresa se conoce como _________ Ambiental.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: impacto</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="compliance">
+            <div class="question-text">34. La nueva versión ISO 14001:2026 utiliza el término Obligaciones de _________ para reemplazar la frase "requisitos legales y otros requisitos".</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: compliance</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="sl">
+            <div class="question-text">35. La Estructura de Alto Nivel adoptada para facilitar la integración con otras normas ISO, como la 9001, está basada en el Anexo _________.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: SL</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="planificar">
+            <div class="question-text">36. En el modelo PHVA (Mejora Continua), la fase de _________ implica establecer los objetivos coherentes con la política ambiental.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: planificar</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="dirección">
+            <div class="question-text">37. La Alta _________ asume la responsabilidad y rendición de cuentas final por la eficacia del Sistema de Gestión Ambiental.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: dirección</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="vida">
+            <div class="question-text">38. Las etapas consecutivas e interrelacionadas de un producto, desde la adquisición de materia prima hasta su disposición final, conforman la perspectiva de Ciclo de _________.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: vida</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="evidencia">
+            <div class="question-text">39. Para sustituir el verbo "conservar", la ISO 14001:2026 utiliza la expresión "disponer como _________ de" al referirse a la preservación de prueba objetiva.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: evidencia</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="política">
+            <div class="question-text">40. La _________ Ambiental es la declaración de intenciones establecida por la dirección, alineada con la dirección estratégica, que incluye el compromiso de prevenir la contaminación.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: política</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">Examen Integral ISO 14001:2026 — Corrección automática</div>
+</div>
+
+<script>
+    document.querySelectorAll('.question-block[data-type="multiple"]').forEach(block => {
+        const radios = block.querySelectorAll('input[type="radio"]');
+        const feedback = document.createElement('span');
+        feedback.className = 'feedback';
+        block.querySelector('.options').appendChild(feedback);
+
+        radios.forEach(radio => {
+            radio.addEventListener('change', function() {
+                const correctAnswer = block.getAttribute('data-correct');
+                if (this.value === correctAnswer) {
+                    feedback.textContent = '✅';
+                    feedback.className = 'feedback correct';
+                } else {
+                    feedback.textContent = '❌';
+                    feedback.className = 'feedback incorrect';
+                }
+            });
+        });
+    });
+
+    function checkFill(input) {
+        const block = input.closest('.question-block');
+        const feedback = block.querySelector('.feedback');
+        const correctAnswerSpan = block.querySelector('.correct-answer');
+        const correctAnswer = block.getAttribute('data-correct').toLowerCase().trim();
+        const userAnswer = input.value.toLowerCase().trim();
+        const normalize = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+
+        if (normalize(userAnswer) === normalize(correctAnswer)) {
+            feedback.textContent = '✅';
+            feedback.className = 'feedback correct';
+            correctAnswerSpan.style.display = 'none';
+        } else {
+            feedback.textContent = '❌';
+            feedback.className = 'feedback incorrect';
+            correctAnswerSpan.style.display = 'block';
+        }
+    }
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Auditoría Ambiental</title>
+    <style>
+        :root { --primary: #0d47a1; --secondary: #1976d2; --success: #2e7d32; --error: #c62828; --bg: #f4f7f6; --card: #fff; --text: #333; --border: #ddd; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { text-align: center; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: 10px; margin-bottom: 30px; }
+        h2 { color: var(--secondary); margin-top: 40px; border-bottom: 1px solid var(--secondary); padding-bottom: 5px; }
+        h3 { color: #555; margin-top: 25px; font-size: 1.1em; }
+        .exam-section { background-color: var(--card); border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 25px; margin-bottom: 30px; }
+        .question-block { margin-bottom: 20px; padding: 15px; border-left: 4px solid var(--secondary); background-color: #fafafa; border-radius: 0 4px 4px 0; }
+        .question-text { font-weight: 600; margin-bottom: 10px; }
+        .options label { display: block; margin-bottom: 8px; cursor: pointer; padding: 8px; border-radius: 4px; transition: background-color 0.2s; }
+        .options label:hover { background-color: #e3f2fd; }
+        .options input[type="radio"] { margin-right: 10px; }
+        .feedback { font-weight: bold; margin-left: 10px; font-size: 1.2em; }
+        .feedback.correct { color: var(--success); }
+        .feedback.incorrect { color: var(--error); }
+        .fill-in-blank { margin-top: 10px; }
+        .fill-in-blank input[type="text"] { padding: 8px; border: 1px solid var(--border); border-radius: 4px; width: 200px; font-size: 1em; margin-right: 10px; }
+        .fill-in-blank input[type="text"]:focus { outline: 2px solid var(--secondary); }
+        .correct-answer { font-size: 0.9em; color: var(--success); margin-top: 5px; font-style: italic; }
+        .footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📝 Examen de Auditoría Ambiental</h1>
+    <p style="text-align: center;">Marco Normativo, SINEFA y Proceso de Auditoría. ✅ = Correcto, ❌ = Incorrecto.</p>
+
+    <div class="exam-section">
+        <h2>Parte I: Selección Múltiple</h2>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">1. Según la Constitución Política del Perú (Art. 2, inc. 22), ¿qué derecho fundamental se garantiza?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p1" value="a"> a) El derecho a la propiedad privada sobre los recursos naturales.</label>
+                <label><input type="radio" name="e4p1" value="b"> b) El derecho a gozar de un ambiente equilibrado y adecuado al desarrollo de la vida.</label>
+                <label><input type="radio" name="e4p1" value="c"> c) El derecho a la fiscalización ciudadana de las empresas.</label>
+                <label><input type="radio" name="e4p1" value="d"> d) El derecho a la explotación sostenible de los minerales.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">2. ¿Qué norma regula específicamente el Sistema Nacional de Evaluación y Fiscalización Ambiental (SINEFA)?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p2" value="a"> a) Ley N° 28611</label>
+                <label><input type="radio" name="e4p2" value="b"> b) Ley N° 28245</label>
+                <label><input type="radio" name="e4p2" value="c"> c) Ley N° 29325</label>
+                <label><input type="radio" name="e4p2" value="d"> d) Ley N° 27446</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">3. El ente rector encargado de dirigir la fiscalización ambiental a nivel nacional en el marco del SINEFA es:</div>
+            <div class="options">
+                <label><input type="radio" name="e4p3" value="a"> a) El Ministerio del Ambiente (MINAM)</label>
+                <label><input type="radio" name="e4p3" value="b"> b) El Organismo de Evaluación y Fiscalización Ambiental (OEFA)</label>
+                <label><input type="radio" name="e4p3" value="c"> c) El Servicio Nacional de Certificación Ambiental (SENACE)</label>
+                <label><input type="radio" name="e4p3" value="d"> d) El Instituto Nacional de Calidad (INACAL)</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">4. ¿Cuál de los siguientes es el horizonte estratégico temporal establecido por la Política Nacional del Ambiente (D.S. N° 023-2021-MINAM)?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p4" value="a"> a) 2025</label>
+                <label><input type="radio" name="e4p4" value="b"> b) 2026</label>
+                <label><input type="radio" name="e4p4" value="c"> c) 2030</label>
+                <label><input type="radio" name="e4p4" value="d"> d) 2050</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">5. Según la normativa técnica actualizada de INACAL, ¿cuál es la versión vigente de la norma para Sistemas de Gestión Ambiental?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p5" value="a"> a) NTP-ISO 14001:2015</label>
+                <label><input type="radio" name="e4p5" value="b"> b) NTP-ISO 14001:2026</label>
+                <label><input type="radio" name="e4p5" value="c"> c) NTP-ISO 19011:2018</label>
+                <label><input type="radio" name="e4p5" value="d"> d) NTP-ISO 9001:2026</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">6. A diferencia de la auditoría que es voluntaria, la supervisión del OEFA se caracteriza por:</div>
+            <div class="options">
+                <label><input type="radio" name="e4p6" value="a"> a) Ser un proceso exclusivamente académico.</label>
+                <label><input type="radio" name="e4p6" value="b"> b) Tener una potestad pública coercitiva sobre el cumplimiento fiscalizable.</label>
+                <label><input type="radio" name="e4p6" value="c"> c) Ser realizada únicamente por auditores externos contratados.</label>
+                <label><input type="radio" name="e4p6" value="d"> d) Buscar solo la mejora continua sin fines sancionadores.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">7. ¿Qué término se define como la "observación de datos medibles, por ejemplo, la medición de material particulado PM10"?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p7" value="a"> a) Inspección</label>
+                <label><input type="radio" name="e4p7" value="b"> b) Auditoría</label>
+                <label><input type="radio" name="e4p7" value="c"> c) Monitoreo</label>
+                <label><input type="radio" name="e4p7" value="d"> d) Hallazgo</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">8. ¿Qué norma técnica establece las directrices renovadas para la auditoría de sistemas de gestión?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p8" value="a"> a) NTP-ISO 14001:2026</label>
+                <label><input type="radio" name="e4p8" value="b"> b) NTP-ISO 19011:2026</label>
+                <label><input type="radio" name="e4p8" value="c"> c) Ley N° 28611</label>
+                <label><input type="radio" name="e4p8" value="d"> d) Ley N° 27446</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">9. La lógica del proceso de auditoría se resume en la fórmula:</div>
+            <div class="options">
+                <label><input type="radio" name="e4p9" value="a"> a) Evidencia + Hallazgo = Criterio</label>
+                <label><input type="radio" name="e4p9" value="b"> b) Criterio + Evaluación = Evidencia</label>
+                <label><input type="radio" name="e4p9" value="c"> c) Criterio + Evidencia = Evaluación</label>
+                <label><input type="radio" name="e4p9" value="d"> d) Evaluación + Criterio = Hallazgo</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">10. ¿Qué representan los "Criterios" en un proceso de auditoría ambiental?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p10" value="a"> a) La información que se recolecta en el campo.</label>
+                <label><input type="radio" name="e4p10" value="b"> b) Las reglas de juego o requisitos esperados (normativa, estándares).</label>
+                <label><input type="radio" name="e4p10" value="c"> c) Las conclusiones finales del auditor.</label>
+                <label><input type="radio" name="e4p10" value="d"> d) Las sanciones aplicadas a la organización.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">11. ¿Cuál de los siguientes es un ejemplo válido de "Criterio de Auditoría"?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p11" value="a"> a) Una fotografía del lugar.</label>
+                <label><input type="radio" name="e4p11" value="b"> b) Los registros de capacitación del personal.</label>
+                <label><input type="radio" name="e4p11" value="c"> c) La Política Ambiental y el Instrumento de Gestión Ambiental (IGA).</label>
+                <label><input type="radio" name="e4p11" value="d"> d) Un informe de laboratorio de emisiones.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">12. La información verificable que sustenta las conclusiones del auditor se conoce como:</div>
+            <div class="options">
+                <label><input type="radio" name="e4p12" value="a"> a) Evidencia de Auditoría</label>
+                <label><input type="radio" name="e4p12" value="b"> b) Criterio de Evaluación</label>
+                <label><input type="radio" name="e4p12" value="c"> c) Hallazgo de Conformidad</label>
+                <label><input type="radio" name="e4p12" value="d"> d) Política Organizacional</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">13. ¿Cuál de las siguientes NO es una fuente típica de evidencia de auditoría mencionada en el documento?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p13" value="a"> a) Cadenas de custodia.</label>
+                <label><input type="radio" name="e4p13" value="b"> b) Observación en campo.</label>
+                <label><input type="radio" name="e4p13" value="c"> c) Suposiciones o rumores de los trabajadores.</label>
+                <label><input type="radio" name="e4p13" value="d"> d) Informes de inspección y registros.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">14. El resultado técnico que surge tras contrastar la evidencia obtenida frente a los criterios se denomina:</div>
+            <div class="options">
+                <label><input type="radio" name="e4p14" value="a"> a) Sanción administrativa</label>
+                <label><input type="radio" name="e4p14" value="b"> b) Hallazgo</label>
+                <label><input type="radio" name="e4p14" value="c"> c) Política Ambiental</label>
+                <label><input type="radio" name="e4p14" value="d"> d) Evidencia</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">15. ¿Qué aspecto de un Sistema de Gestión Ambiental (SGA) es considerado como el pilar y declaración formal de intenciones de la organización?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p15" value="a"> a) El Instrumento de Gestión Ambiental (IGA).</label>
+                <label><input type="radio" name="e4p15" value="b"> b) La Política Ambiental.</label>
+                <label><input type="radio" name="e4p15" value="c"> c) El Monitoreo de emisiones.</label>
+                <label><input type="radio" name="e4p15" value="d"> d) La Fiscalización de OEFA.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">16. Sobre la Política Ambiental, es correcto afirmar que:</div>
+            <div class="options">
+                <label><input type="radio" name="e4p16" value="a"> a) Es una ley estatal de cumplimiento coercitivo a nivel nacional.</label>
+                <label><input type="radio" name="e4p16" value="b"> b) Es un documento redactado exclusivamente por el MINAM para la empresa.</label>
+                <label><input type="radio" name="e4p16" value="c"> c) Es un compromiso voluntario y estratégico asumido por la dirección de la organización.</label>
+                <label><input type="radio" name="e4p16" value="d"> d) No requiere estar documentada ni comunicada a las partes interesadas.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">17. Cuando un auditor evalúa la Política Ambiental, ¿qué debe verificar principalmente respecto a su implementación?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p17" value="a"> a) Que se encuentre impresa en un cuadro en la recepción.</label>
+                <label><input type="radio" name="e4p17" value="b"> b) Que esté efectivamente implementada y comunicada a todas las partes interesadas.</label>
+                <label><input type="radio" name="e4p17" value="c"> c) Que haya sido aprobada por el OEFA.</label>
+                <label><input type="radio" name="e4p17" value="d"> d) Que tenga más de cinco años de vigencia.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">18. Al evaluar el "Contexto" de la Política Ambiental, el auditor busca confirmar que:</div>
+            <div class="options">
+                <label><input type="radio" name="e4p18" value="a"> a) Sea apropiada al propósito y contexto de la organización y sus aspectos significativos.</label>
+                <label><input type="radio" name="e4p18" value="b"> b) Tenga un diseño gráfico llamativo.</label>
+                <label><input type="radio" name="e4p18" value="c"> c) Coincida exactamente con la política de la competencia.</label>
+                <label><input type="radio" name="e4p18" value="d"> d) Excluya la prevención de la contaminación.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">19. La conclusión fundamental que se extrae del caso práctico de la empresa "Agroambiental Verde S.A.C." es:</div>
+            <div class="options">
+                <label><input type="radio" name="e4p19" value="a"> a) Las políticas ambientales son meros trámites burocráticos.</label>
+                <label><input type="radio" name="e4p19" value="b"> b) La política se audita por su implementación efectiva (programas, controles, indicadores) y no solo por su formulación en papel.</label>
+                <label><input type="radio" name="e4p19" value="c"> c) La prevención de contaminación es imposible en el sector agroindustrial.</label>
+                <label><input type="radio" name="e4p19" value="d"> d) Solo la alta gerencia debe conocer la política ambiental.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">20. El principio fundamental y mensaje clave del auditor ambiental dicta que:</div>
+            <div class="options">
+                <label><input type="radio" name="e4p20" value="a"> a) Un auditor busca culpables, no soluciones.</label>
+                <label><input type="radio" name="e4p20" value="b"> b) Un auditor busca opiniones: no necesita evidencia para evaluar.</label>
+                <label><input type="radio" name="e4p20" value="c"> c) Un auditor no busca opiniones: busca evidencia para evaluar criterios.</label>
+                <label><input type="radio" name="e4p20" value="d"> d) Un auditor debe sancionar económicamente a la empresa inmediatamente.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">21. En el flujo integral de la auditoría, ¿qué paso precede directamente a la "Conclusión"?</div>
+            <div class="options">
+                <label><input type="radio" name="e4p21" value="a"> a) La Evidencia</label>
+                <label><input type="radio" name="e4p21" value="b"> b) El Hallazgo</label>
+                <label><input type="radio" name="e4p21" value="c"> c) El Criterio</label>
+                <label><input type="radio" name="e4p21" value="d"> d) La Fiscalización</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">22. Según la distinción de conceptos legales, el acto de evaluar y aplicar una potestad sancionadora ante una infracción es función exclusiva de:</div>
+            <div class="options">
+                <label><input type="radio" name="e4p22" value="a"> a) Un auditor líder ISO 14001.</label>
+                <label><input type="radio" name="e4p22" value="b"> b) El área de fiscalización (ej. OEFA).</label>
+                <label><input type="radio" name="e4p22" value="c"> c) El cliente que contrata la auditoría.</label>
+                <label><input type="radio" name="e4p22" value="d"> d) El propio auditado.</label>
+            </div>
+        </div>
+
+        <h3>Parte II: Completar los espacios en blanco</h3>
+
+        <div class="question-block" data-type="fill" data-correct="evidencia">
+            <div class="question-text">31. La lógica del proceso de auditoría se resume en la fórmula: CRITERIO + _________ = EVALUACIÓN.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: evidencia</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="opiniones">
+            <div class="question-text">32. El principio fundamental dicta: "Un auditor no busca opiniones: busca _________ para evaluar criterios".</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: opiniones</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="14001">
+            <div class="question-text">33. La nueva norma publicada por INACAL el 30 de abril de 2026 sobre Sistemas de Gestión Ambiental es la NTP-ISO _________: 2026.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: 14001</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="oefa">
+            <div class="question-text">34. El ente rector del Sistema Nacional de Evaluación y Fiscalización Ambiental (SINEFA) es el _________ (siglas).</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: OEFA</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="coercitivo">
+            <div class="question-text">35. A diferencia de la auditoría que es de carácter voluntario, la potestad ejercida por el Estado a través del OEFA tiene un carácter _________ sobre el cumplimiento fiscalizable.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: coercitivo (o público, obligatorio)</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="no conformidad">
+            <div class="question-text">36. Según la tipología de hallazgos de la NTP-ISO 19011, el incumplimiento específico de un requisito normativo o interno se clasifica como una _________.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: No Conformidad</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="política">
+            <div class="question-text">37. La _________ Ambiental es la declaración formal de las intenciones y dirección de una organización, sirviendo como base para su Sistema de Gestión.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: Política</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="evidencia">
+            <div class="question-text">38. Las fotografías de sitio, los informes de laboratorio y los registros de capacitación son ejemplos de fuentes de _________ de auditoría.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: evidencia</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="hallazgo">
+            <div class="question-text">39. El flujo integral de la auditoría sigue esta secuencia metodológica: Criterios → Evidencia → Evaluación → _________ → Conclusión.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: Hallazgo</div>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="fill" data-correct="criterios">
+            <div class="question-text">40. En el proceso de auditoría, las obligaciones legales, los IGA y las políticas internas representan las "reglas del juego", las cuales técnicamente se denominan _________ de auditoría.</div>
+            <div class="fill-in-blank">
+                <input type="text" placeholder="Escribe tu respuesta..." onkeydown="if(event.key==='Enter') checkFill(this)">
+                <span class="feedback"></span>
+                <div class="correct-answer" style="display:none;">Respuesta correcta: Criterios</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">Examen de Auditoría Ambiental — Corrección automática</div>
+</div>
+
+<script>
+    document.querySelectorAll('.question-block[data-type="multiple"]').forEach(block => {
+        const radios = block.querySelectorAll('input[type="radio"]');
+        const feedback = document.createElement('span');
+        feedback.className = 'feedback';
+        block.querySelector('.options').appendChild(feedback);
+
+        radios.forEach(radio => {
+            radio.addEventListener('change', function() {
+                const correctAnswer = block.getAttribute('data-correct');
+                if (this.value === correctAnswer) {
+                    feedback.textContent = '✅';
+                    feedback.className = 'feedback correct';
+                } else {
+                    feedback.textContent = '❌';
+                    feedback.className = 'feedback incorrect';
+                }
+            });
+        });
+    });
+
+    function checkFill(input) {
+        const block = input.closest('.question-block');
+        const feedback = block.querySelector('.feedback');
+        const correctAnswerSpan = block.querySelector('.correct-answer');
+        const correctAnswer = block.getAttribute('data-correct').toLowerCase().trim();
+        const userAnswer = input.value.toLowerCase().trim();
+        const normalize = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+
+        if (normalize(userAnswer) === normalize(correctAnswer)) {
+            feedback.textContent = '✅';
+            feedback.className = 'feedback correct';
+            correctAnswerSpan.style.display = 'none';
+        } else {
+            feedback.textContent = '❌';
+            feedback.className = 'feedback incorrect';
+            correctAnswerSpan.style.display = 'block';
+        }
+    }
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Actualización ISO 19011:2026</title>
+    <style>
+        :root { --primary: #0d47a1; --secondary: #1976d2; --success: #2e7d32; --error: #c62828; --bg: #f4f7f6; --card: #fff; --text: #333; --border: #ddd; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { text-align: center; color: var(--primary); border-bottom: 3px solid var(--primary); padding-bottom: 10px; margin-bottom: 30px; }
+        h2 { color: var(--secondary); margin-top: 40px; border-bottom: 1px solid var(--secondary); padding-bottom: 5px; }
+        h3 { color: #555; margin-top: 25px; font-size: 1.1em; }
+        .exam-section { background-color: var(--card); border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 25px; margin-bottom: 30px; }
+        .question-block { margin-bottom: 20px; padding: 15px; border-left: 4px solid var(--secondary); background-color: #fafafa; border-radius: 0 4px 4px 0; }
+        .question-text { font-weight: 600; margin-bottom: 10px; }
+        .options label { display: block; margin-bottom: 8px; cursor: pointer; padding: 8px; border-radius: 4px; transition: background-color 0.2s; }
+        .options label:hover { background-color: #e3f2fd; }
+        .options input[type="radio"] { margin-right: 10px; }
+        .feedback { font-weight: bold; margin-left: 10px; font-size: 1.2em; }
+        .feedback.correct { color: var(--success); }
+        .feedback.incorrect { color: var(--error); }
+        .fill-in-blank { margin-top: 10px; }
+        .fill-in-blank input[type="text"] { padding: 8px; border: 1px solid var(--border); border-radius: 4px; width: 200px; font-size: 1em; margin-right: 10px; }
+        .fill-in-blank input[type="text"]:focus { outline: 2px solid var(--secondary); }
+        .correct-answer { font-size: 0.9em; color: var(--success); margin-top: 5px; font-style: italic; }
+        .footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📝 Examen de Actualización ISO 19011:2026</h1>
+    <p style="text-align: center;">Evaluación de Cambios Técnicos. ✅ = Correcto, ❌ = Incorrecto.</p>
+
+    <div class="exam-section">
+        <h2>Parte I: Selección Múltiple</h2>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">1. ¿A qué edición específica anula y sustituye la nueva directriz ISO 19011:2026?</div>
+            <div class="options">
+                <label><input type="radio" name="e5p1" value="a"> a) ISO 19011:2011</label>
+                <label><input type="radio" name="e5p1" value="b"> b) ISO 19011:2015</label>
+                <label><input type="radio" name="e5p1" value="c"> c) ISO 19011:2018</label>
+                <label><input type="radio" name="e5p1" value="d"> d) ISO 14001:2015</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">2. ¿Cuál es el principal cambio técnico introducido en la norma ISO 19011:2026 respecto a su versión anterior?</div>
+            <div class="options">
+                <label><input type="radio" name="e5p2" value="a"> a) La eliminación del enfoque basado en riesgos.</label>
+                <label><input type="radio" name="e5p2" value="b"> b) La ampliación de la guía sobre métodos de auditoría remota.</label>
+                <label><input type="radio" name="e5p2" value="c"> c) La reducción de los principios de auditoría de siete a cinco.</label>
+                <label><input type="radio" name="e5p2" value="d"> d) La prohibición estricta de las auditorías de tercera parte.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">3. ¿Qué documento normativo complementario se integró en la ISO 19011:2026 para proporcionar orientación específica sobre métodos de auditoría remota?</div>
+            <div class="options">
+                <label><input type="radio" name="e5p3" value="a"> a) ISO 9001:2015</label>
+                <label><input type="radio" name="e5p3" value="b"> b) ISO/IEC TS 17012</label>
+                <label><input type="radio" name="e5p3" value="c"> c) ISO 31000</label>
+                <label><input type="radio" name="e5p3" value="d"> d) ISO/IEC 17021-1</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">4. ¿Qué sección específica de la norma ISO 19011 fue expandida en la edición 2026 para abordar detalladamente los métodos remotos y ubicaciones virtuales?</div>
+            <div class="options">
+                <label><input type="radio" name="e5p4" value="a"> a) El Capítulo 4: Principios de auditoría.</label>
+                <label><input type="radio" name="e5p4" value="b"> b) El Capítulo 5: Gestión de un programa de auditoría.</label>
+                <label><input type="radio" name="e5p4" value="c"> c) El Anexo A (informativo).</label>
+                <label><input type="radio" name="e5p4" value="d"> d) El Anexo B (normativo).</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">5. Según el vocabulario de la norma ISO 19011:2026, ¿cómo se define una "ubicación virtual"?</div>
+            <div class="options">
+                <label><input type="radio" name="e5p5" value="a"> a) Una oficina central corporativa sin operaciones de manufactura.</label>
+                <label><input type="radio" name="e5p5" value="b"> b) Un entorno en línea donde una organización realiza un trabajo o servicio independientemente de la ubicación física.</label>
+                <label><input type="radio" name="e5p5" value="c"> c) Un simulador de entrenamiento para auditores en formación.</label>
+                <label><input type="radio" name="e5p5" value="d"> d) Un servidor de almacenamiento de datos desconectado de la red.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">6. ¿Cuál es la característica fundamental de un "método de auditoría remota" según la norma?</div>
+            <div class="options">
+                <label><input type="radio" name="e5p6" value="a"> a) Auditar exclusivamente mediante el uso de drones.</label>
+                <label><input type="radio" name="e5p6" value="b"> b) Realizar actividades de auditoría exclusivamente a través de videollamadas.</label>
+                <label><input type="radio" name="e5p6" value="c"> c) Realizar actividades de auditoría desde cualquier lugar distinto a la ubicación del auditado.</label>
+                <label><input type="radio" name="e5p6" value="d"> d) Auditar únicamente documentos digitales sin contacto humano.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">7. Respecto al uso de métodos de auditoría remota e in situ (presenciales), la norma establece que:</div>
+            <div class="options">
+                <label><input type="radio" name="e5p7" value="a"> a) Son mutuamente excluyentes y no pueden combinarse.</label>
+                <label><input type="radio" name="e5p7" value="b"> b) Los métodos remotos deben reemplazar siempre a los in situ si la empresa tiene internet.</label>
+                <label><input type="radio" name="e5p7" value="c"> c) Se pueden utilizar en combinación para lograr una auditoría completa y eficaz.</label>
+                <label><input type="radio" name="e5p7" value="d"> d) Los métodos in situ solo se permiten para auditorías de primera parte.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="b">
+            <div class="question-text">8. Al planificar el uso de métodos de auditoría remota, ¿qué recomienda el Anexo A para mitigar problemas tecnológicos?</div>
+            <div class="options">
+                <label><input type="radio" name="e5p8" value="a"> a) Realizar la auditoría únicamente si se cuenta con internet satelital.</label>
+                <label><input type="radio" name="e5p8" value="b"> b) Realizar comprobaciones técnicas antes de la auditoría para resolver problemas de conexión.</label>
+                <label><input type="radio" name="e5p8" value="c"> c) Suspender automáticamente la auditoría si falla la conexión.</label>
+                <label><input type="radio" name="e5p8" value="d"> d) Delegar la responsabilidad técnica al auditado.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="c">
+            <div class="question-text">9. Durante una auditoría remota, ¿qué acción es recomendable para garantizar la confidencialidad y privacidad durante las pausas?</div>
+            <div class="options">
+                <label><input type="radio" name="e5p9" value="a"> a) Apagar los equipos por completo.</label>
+                <label><input type="radio" name="e5p9" value="b"> b) Solicitar a los participantes que abandonen la sala.</label>
+                <label><input type="radio" name="e5p9" value="c"> c) Garantizar la privacidad silenciando los micrófonos o pausando las cámaras.</label>
+                <label><input type="radio" name="e5p9" value="d"> d) Continuar la grabación para no perder evidencia.</label>
+            </div>
+        </div>
+
+        <div class="question-block" data-type="multiple" data-correct="a">
+            <div class="question-text">10. ¿Qué competencia adicional debe poseer un auditor para realizar auditorías remotas de manera eficaz?</div>
+            <div class="options">
+                <label><input type="radio" name="e5p10" value="a"> a) Habilidades técnicas para utilizar la tecnología adecuada durante la auditoría.</label>
+                <label><input type="radio" name="e5p10" value="b"> b) Conocimientos avanzados de programación y ciberseguridad.</label>
+                <label><input type="radio" name="e5p10" value="c"> c) Capacidad para traducir simultáneamente en tres idiomas.</label>
+                <label><input type="radio" name="e5p10" value="d"> d) Experiencia previa en auditorías presenciales únicamente.</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">Examen de Actualización ISO 19011:2026 — Corrección automática</div>
+</div>
+
+<script>
+    document.querySelectorAll('.question-block[data-type="multiple"]').forEach(block => {
+        const radios = block.querySelectorAll('input[type="radio"]');
+        const feedback = document.createElement('span');
+        feedback.className = 'feedback';
+        block.querySelector('.options').appendChild(feedback);
+
+        radios.forEach(radio => {
+            radio.addEventListener('change', function() {
+                const correctAnswer = block.getAttribute('data-correct');
+                if (this.value === correctAnswer) {
+                    feedback.textContent = '✅';
+                    feedback.className = 'feedback correct';
+                } else {
+                    feedback.textContent = '❌';
+                    feedback.className = 'feedback incorrect';
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>
